@@ -32,7 +32,17 @@
 
   gtag('config', 'G-FRG13FWCHF');
 </script>
-  <p>Hello analytics! </p>
+
+<script>
+  function cb(response) {
+      document.getElementById('visits').innerText = response.value;
+  }
+  </script>
+  <script async src="https://api.countapi.xyz/hit/gjhltn.github.io/visits?callback=cb"></script>
+  <div id="visits">...</div>  
+
+
+  <p>Hello countapi! </p>
  
 
   </body>
