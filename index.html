@@ -33,16 +33,13 @@
   gtag('config', 'G-FRG13FWCHF');
 </script>
 
-<script>
-  function cb(response) {
-      document.getElementById('visits').innerText = response.value;
-  }
-  </script>
-  <script async src="https://api.countapi.xyz/hit/gjhltn.github.io/visits?callback=cb"></script>
-  <div id="visits">...</div>  
+<!-- counterAPI library, insert anywhere on the page. -->
+<script src="https://counterapi.com/c.js" async ></script>
+<!-- Add the counter instance somewhere to your template... -->
+<div class="counterapi" style="min-height:44px" ></div> 
 
 
-  <p>Hello countapi! </p>
+  <p>Hello counter api! </p>
  
 
   </body>
