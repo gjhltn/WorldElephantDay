@@ -9,11 +9,31 @@
   <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
   <style>
 body{
-  background: linear-gradient(0deg, rgba(213,213,213,1) 0%, rgba(166,140,120,1) 100%);
-font-size: 64px;
+  font-size: 64px;
 font-family: 'Helvetica Neue', sans-serif;
 color: #fff;
-margin:1rem;
+background: #555;
+
+}
+
+body, html {
+  margin:0;
+  padding:0;
+	background: linear-gradient(-45deg, #232423, #e73c7e, #23a6d5, #23d5ab);background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 a, a:visited, a:hover, a:active {
@@ -21,33 +41,25 @@ color: #fc0;
 font-weight: 900;
 
 }
+
+.inner {
+  padding:1rem 3rem;
+}
 .counterapi {
 
 }
     </style>
 
-<meta http-equiv="refresh" content="10; url=https://www.sheldrickwildlifetrust.org">
+<meta http-eqduiv="refresh" content="10; url=https://www.sheldrickwildlifetrust.org">
 </head>
 
-<body>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FRG13FWCHF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FRG13FWCHF');
-</script>
-
-
-<script src="https://counterapi.com/c.js" async ></script>
+<body><div class="bg"><div class="inner"><script src="https://counterapi.com/c.js" async ></script>
 <div class="counterapi" noCss="true" unique="true" noIcon="true" noLink="true" style="min-height:100px" ></div> 
 
 
   <p>Thank you for taking part in World Elephant Day 2023!</p>
   <p>Now redirecting you to <a href="https://www.sheldrickwildlifetrust.org">https://www.sheldrickwildlifetrust.org</a></p>
- 
+</div></div>
 
   </body>
 
